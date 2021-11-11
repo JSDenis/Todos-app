@@ -11,7 +11,7 @@ const succesMsg = chalk.bgKeyword('green').white;
 
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "*"
 };
 
 app.use(cors(corsOptions));
